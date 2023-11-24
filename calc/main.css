@@ -25,10 +25,32 @@ h4 {
 	margin: 0.5em 0 0 0;
 }
 
+table {
+	border-collapse: collapse;
+	text-align: center;
+	border-bottom: 0.05em gray solid;
+	border-right: 0.05em gray solid;
+}
+
+td, th {
+	border-top: 0.05em gray solid;
+	border-left: 0.05em gray solid;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
 figure {
 	text-align: center;
+	margin: 1em;
 }
 
 figure img {
 	max-width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #EEE;
+		background-color: black;
+	}
 }

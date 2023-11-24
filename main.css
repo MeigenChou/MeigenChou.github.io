@@ -35,3 +35,10 @@ h3, p {
 	margin: 0.5em 0;
 	color: black;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #EEE;
+		background-color: black;
+	}
+}
