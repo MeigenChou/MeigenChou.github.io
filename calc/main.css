@@ -1,6 +1,6 @@
 .content {
 	width: 90%;
-	max-width: 980px;
+	max-width: 1060px;
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -28,8 +28,11 @@ h4 {
 table {
 	border-collapse: collapse;
 	text-align: center;
+	margin-top: 0.8em;
 	border-bottom: 0.05em gray solid;
 	border-right: 0.05em gray solid;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
 }
 
 td, th {
